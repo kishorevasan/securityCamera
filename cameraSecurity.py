@@ -42,7 +42,6 @@ while True:
     d = np.zeros(c.shape)
     d[c>25] = 1
     change_percent = 100*np.sum(d)/np.prod(d.shape)
-    print change_percent
     if(change_percent>20):
         temp = datetime.now().strftime('%Y_%m_%d %H_%M_%S')
         cv2.imwrite(temp+".jpg",a)
