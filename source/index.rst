@@ -10,12 +10,13 @@ Your personal security application that monitors the movement in front of the la
 
 Get things rolling with : 
 
-.. code:block:: bash
+.. code-block:: bash
     
     pip install git+git://github.com/kishorevasan/securityCamera.git
 
 Install the necessary packages using 
-.. code:block:: python
+
+.. code-block:: python
     
     pip install numpy
     
